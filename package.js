@@ -7,6 +7,8 @@ Package.describe({
 
 
 Package.onUse(function (api) {
+  api.use("jquery", "client");
+    
   api.addFiles('component.css', 'client');
   api.addFiles('modernizr.custom.js', 'client');
   api.addFiles('boxlayout.js', 'client');
