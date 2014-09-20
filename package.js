@@ -7,7 +7,7 @@ Package.describe({
 
 
 Package.onUse(function (api) {
-  api.use("jquery", "client");
+  api.use("jquery@1.0.0", "client");
     
   api.addFiles('component.css', 'client');
   api.addFiles('modernizr.custom.js', 'client');
